@@ -119,3 +119,49 @@ a {
 } */
 
 /* CONTACT SECTION */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background-image: linear-gradient(
+    to right top,
+    #262736,
+    #313c4e,
+    #3b5266,
+    #436a7c,
+    #4e8290,
+    #4f848d,
+    #51868a,
+    #548787,
+    #497371,
+    #3d5f5d,
+    #324b49,
+    #273937
+  );
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+#btn-contact a {
+  text-decoration: none;
+  color: white;
+}
+.contact-details:hover {
+  transform: translateY(8px);
+}
