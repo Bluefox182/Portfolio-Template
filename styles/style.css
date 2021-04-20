@@ -15,18 +15,11 @@ p {
 .project-title {
   background-image: linear-gradient(
     to right top,
-    #0b0b14,
-    #11111e,
-    #141627,
-    #181a32,
-    #1b1e3c,
-    #22274b,
-    #28305b,
-    #2e3a6c,
-    #394c87,
-    #425fa2,
-    #4a73bf,
-    #5188dc
+    #101112,
+    #171a1b,
+    #1c2221,
+    #252a26,
+    #30322b
   );
   font-family: "PT Mono", monospace;
   font-size: 25px;
