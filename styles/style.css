@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap");
 
 /* Navbar */
-.navbar {
+.navbar,
+.project-title {
   background-color: #364547;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
-.navbar a {
+.navbar a,
+.project-title {
   color: white;
 }
 #navbar-top .nav-link {
@@ -16,6 +18,9 @@
 .navbar a:hover {
   color: #ffb037;
 }
+/* .project-title:hover {
+  color: #ffb037;
+} */
 
 /* Hero */
 .hero-section {
@@ -63,6 +68,10 @@
   color: #ffe268;
   padding: 100px 20px;
 }
+.projects-section-header {
+  margin: 0 auto 4rem auto;
+  font-size: 50px;
+}
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -83,8 +92,9 @@ img {
 }
 .project-title {
   font-size: 20px;
-  padding: 10px;
+  padding: 20px 20px;
 }
 .project {
   background-color: #364547;
+  text-decoration: none;
 }
