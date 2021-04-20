@@ -41,3 +41,11 @@
   font-size: 35px;
   text-align: center;
 }
+
+/* Projects */
+.projects-section {
+  background-color: #364547;
+  text-align: center;
+  color: #ffe268;
+  padding: 100px 20px;
+}
