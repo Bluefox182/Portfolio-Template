@@ -167,11 +167,11 @@ a {
 }
 
 #btn-contact img {
-  width: 20px;
+  width: 35px;
   display: inline-block;
   vertical-align: middle;
 }
-#btn-contact-details {
+#profile-link {
   font-size: 24px;
   display: inline-block;
   vertical-align: middle;
