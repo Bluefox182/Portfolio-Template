@@ -99,21 +99,21 @@ img {
   text-decoration: none;
 }
 
-/* BUTTON */
+/* SHOW ALL BUTTON */
 .btn-show-all {
-  font-size: 2rem;
-  background: var(--main-gray);
+  font-size: 15px;
+  background: #ffe268;
   transition: background 0.3s ease-out;
 }
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
   border-radius: 2px;
-  
 }
 a {
   text-decoration: none;
-  
+  color: white;
 }
-.btn-show-all:hover {
-    background-color: #ffb037;
+/* .btn-show-all:hover {
+  background: #ffb037;
+} */
