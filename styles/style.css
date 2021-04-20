@@ -44,7 +44,21 @@
 
 /* Projects */
 .projects-section {
-  background-color: #364547;
+  background-image: linear-gradient(
+    to right top,
+    #2c2529,
+    #322a31,
+    #362f3a,
+    #393543,
+    #3a3b4d,
+    #373b50,
+    #343c52,
+    #2f3c55,
+    #293652,
+    #23304f,
+    #1e294c,
+    #192348
+  );
   text-align: center;
   color: #ffe268;
   padding: 100px 20px;
